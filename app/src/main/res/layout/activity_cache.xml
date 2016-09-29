@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cache"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context="com.scofield.glidedemo.CacheActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:src="@android:color/darker_gray"/>
+
+    <ImageView
+        android:id="@+id/iv_2"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@+id/iv_1"
+        android:layout_marginTop="10dp"
+        android:src="@android:color/darker_gray"/>
+
+    <ImageView
+        android:id="@+id/iv_3"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@+id/iv_2"
+        android:layout_marginTop="10dp"
+        android:src="@android:color/darker_gray"/>
+    <ImageView
+        android:id="@+id/iv_4"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@+id/iv_3"
+        android:layout_marginTop="10dp"
+        android:src="@android:color/darker_gray"/>
+
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>
