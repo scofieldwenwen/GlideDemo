@@ -1,4 +1,4 @@
-package com.scofield.glidedemo;
+package com.scofield.glidedemo.activity;
 
 import android.content.Context;
 import android.net.Uri;
@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.scofield.glidedemo.R;
 
 import java.io.File;
 

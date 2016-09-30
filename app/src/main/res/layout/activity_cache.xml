@@ -7,7 +7,7 @@
     android:fitsSystemWindows="true"
     android:background="@android:color/white"
     android:layout_height="match_parent"
-    tools:context="com.scofield.glidedemo.CacheActivity">
+    tools:context="com.scofield.glidedemo.activity.CacheActivity">
 <ScrollView
     android:layout_width="match_parent"
     android:background="@android:color/white"

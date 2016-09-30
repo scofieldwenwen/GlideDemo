@@ -1,9 +1,11 @@
-package com.scofield.glidedemo;
+package com.scofield.glidedemo.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import com.scofield.glidedemo.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,5 +30,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onRotateClick(View view) {
         startActivity(new Intent(this, RotateImageActivity.class));
+    }
+    public void onTransformationsClick(View view) {
+        startActivity(new Intent(this, TransformationsActivity.class));
     }
 }

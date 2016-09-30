@@ -15,21 +15,23 @@
             android:name="com.scofield.glidedemo.MyGlideModule"
             android:value="GlideModule"/>
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".LoadImageActivity">
+        <activity android:name=".activity.LoadImageActivity">
         </activity>
-        <activity android:name=".LoadGifActivity">
+        <activity android:name=".activity.LoadGifActivity">
         </activity>
-        <activity android:name=".CacheActivity"/>
-        <activity android:name=".TargetActivity">
+        <activity android:name=".activity.CacheActivity"/>
+        <activity android:name=".activity.TargetActivity">
         </activity>
-        <activity android:name=".RotateImageActivity">
+        <activity android:name=".activity.RotateImageActivity">
+        </activity>
+        <activity android:name=".activity.TransformationsActivity">
         </activity>
     </application>
 

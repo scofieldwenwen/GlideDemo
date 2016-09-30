@@ -1,4 +1,4 @@
-package com.scofield.glidedemo;
+package com.scofield.glidedemo.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,6 +7,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.Priority;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.scofield.glidedemo.R;
 
 import static com.scofield.glidedemo.R.id.iv_1;
 import static com.scofield.glidedemo.R.id.iv_2;

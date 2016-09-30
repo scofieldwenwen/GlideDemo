@@ -1,4 +1,4 @@
-package com.scofield.glidedemo;
+package com.scofield.glidedemo.transform;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -8,8 +8,10 @@ import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool;
 import com.bumptech.glide.load.resource.bitmap.BitmapTransformation;
 
 /**
+ * 图片加载旋转
  * @author scofield@tronsis.com
  * @date 2016/9/29 11:02
+ *
  */
 
 public class RotateTransformation extends BitmapTransformation {

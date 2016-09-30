@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.scofield.glidedemo.MainActivity">
+    tools:context="com.scofield.glidedemo.activity.MainActivity">
 
     <Button
         android:id="@+id/btn_load_image"
@@ -38,6 +38,11 @@
         android:layout_width="match_parent"
         android:text="Rotate"
         android:onClick="onRotateClick"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Transformations"
+        android:onClick="onTransformationsClick"
         android:layout_height="wrap_content"/>
 
 </LinearLayout>

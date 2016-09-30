@@ -1,4 +1,4 @@
-package com.scofield.glidedemo;
+package com.scofield.glidedemo.activity;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -14,6 +14,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.NotificationTarget;
 import com.bumptech.glide.request.target.SimpleTarget;
+import com.scofield.glidedemo.R;
 
 public class TargetActivity extends AppCompatActivity {
 
